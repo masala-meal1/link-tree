@@ -1,1 +1,96 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Masala Meal</title>
+<script src="https://unpkg.com/feather-icons"></script>
+<style>
+body {
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container a {
+  width: 80%;
+}
+
+.w3-theme-l1:hover {
+  background-color: #000000 !important;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #000000;
+}
+
+.bottom svg {
+  stroke: #000000;
+  fill: #000000;
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+</style>
+</head>
+<body>
+  <!-- Content container -->
+  <div class="container">
+
+    <!-- Image and name container. Change to your pictue here. -->
+    <div style="text-align: center">
+      <img src="Masala.png" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+      <p><span class="name w3-padding w3-black w3-round" style="font-weight: bolder;">Hi, Masala Meal!</span></p>
+      <p style="font-weight: bolder;">Check out my links!</p>
+    </div>
+
+    <!-- Links section 1. Replace the # inside of the "" with your links. -->
+    <h4 class="margin-top-2" style="text-align: center;">MY SOCIAL NETWORKS</h4>
+    <div class="links-container">
+      <a href="#" class="w3-button w3-round-xlarge w3-black w3-border link" target="_blank">Whatsapp</a>
+      <br>
+      <a href="#" class="w3-button w3-round-xlarge w3-black w3-border link" target="_blank">Instagram</a>
+      <br>
+      <a href="#" class="w3-button w3-round-xlarge w3-black w3-border link" target="_blank">Location</a>
+    </div>
+  </div>
+  <script>
+    feather.replace()
+  </script>
+</body>  
+</html>
